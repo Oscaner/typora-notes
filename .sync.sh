@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -xv
+set -v
 
 SCRIPT_DIR="$(dirname $0)"
 

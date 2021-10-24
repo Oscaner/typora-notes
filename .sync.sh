@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -v
-
 SCRIPT_DIR="$(dirname $0)"
 
 # Goto repo root.

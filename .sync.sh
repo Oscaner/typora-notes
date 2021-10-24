@@ -16,5 +16,6 @@ fi
 
 # Auto commit and push.
 git add .
+git diff --staged --exit-code
 git commit -m "Auto-commit at $($DATE_COMMAND)"
 git push -f
